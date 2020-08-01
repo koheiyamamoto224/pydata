@@ -1,5 +1,5 @@
 #ダミーデータの読み込み
-d <- read.csv(url("https://www.dropbox.com/s/pmrbmpv3wv19qp7/hist.csv?raw=1"))
+d <- read.csv("https://raw.githubusercontent.com/koheiyamamoto224/pydata/master/dummy.csv")
 
 #ダミーデータの内容：
 #ageは調査時点の年齢
